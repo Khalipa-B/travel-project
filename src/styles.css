@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #222222;
 }
 
 .container {
@@ -13,7 +13,7 @@ main h4 {
   font-size: 24px;
   line-height: 1;
   margin: 0;
-  color: #272044;
+  color: #222222;
 }
 
 main h5 {
@@ -21,7 +21,7 @@ main h5 {
   font-size: 13px;
   line-height: 1.5;
   margin: 0;
-  color: #272044;
+  color: #222222;
 }
 
 section {
@@ -62,7 +62,7 @@ section .secondary h2 {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #222222;
   text-decoration: none;
 }
 
@@ -159,7 +159,7 @@ header a {
   text-transform: uppercase;
   background: white;
   text-decoration: none;
-  color: #272044;
+  color: #222222;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -175,7 +175,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #222222;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -192,17 +192,14 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: #222222;
   opacity: 0.7;
 }
 
 footer {
   display: block;
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    ),
+  background-image: linear-gradient(rgba(34, 34, 34, 0.9)),
     url(../images/lisbon-footer.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +249,7 @@ footer ul {
 }
 
 .cafe-table th {
-  background-color: #462cb3;
+  background-color: #222222;
   color: white;
   font-weight: 700;
   text-transform: uppercase;
@@ -267,7 +264,7 @@ footer ul {
 }
 
 .cafe-table td {
-  color: #272044;
+  color: #222222;
   opacity: 0.8;
 }
 
