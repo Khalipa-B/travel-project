@@ -205,6 +205,41 @@ footer ul {
   padding: 0;
 }
 
+.cafe-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+  background-color: #f8f8f8;
+}
+
+.cafe-table th,
+.cafe-table td {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+}
+
+.cafe-table th {
+  background-color: #462cb3;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cafe-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cafe-table tr:hover {
+  background-color: #ddd;
+}
+
+.cafe-table td {
+  color: #272044;
+  opacity: 0.8;
+}
+
 @media (max-width: 960px) {
   .grid {
     grid-template-columns: 1fr;
