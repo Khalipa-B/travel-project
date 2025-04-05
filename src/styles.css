@@ -34,6 +34,22 @@ section .secondary {
   background: #f8f8f8;
 }
 
+section .secondary h2 {
+  margin-top: 0;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
+.cafe-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 60px 0;
+  font-size: 16px;
+  text-align: left;
+  background-color: #f8f8f8;
+}
+
 .btn {
   display: block;
   color: white;
@@ -55,6 +71,10 @@ section .secondary {
 
 .card-body {
   padding: 30px;
+}
+
+.card-header {
+  margin-top: 35px;
 }
 
 .card-header.grid {
