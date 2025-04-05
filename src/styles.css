@@ -126,51 +126,59 @@ section .secondary h2 {
   grid-gap: 64px;
 }
 
-header {
+header.hero {
+  position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/lisbon.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
-  padding: 200px 0;
+  padding: 200px 20px;
 }
 
-header h1 {
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 1;
-  margin: 30px 0;
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-header h2 {
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 1.5;
-  margin: 0;
-}
-
-header h3 {
+header.hero h3 {
   font-weight: 900;
   font-size: 24px;
-  line-height: 1.5;
   letter-spacing: 5px;
-  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
-header a {
+header.hero h1 {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background: white;
-  text-decoration: none;
-  color: #222222;
-  padding: 16px 32px;
-  margin-top: 32px;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+header.hero h2 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+header.hero .btn {
   display: inline-block;
+  color: #222222;
+  background-color: white;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header.hero .btn:hover {
+  background-color: #222222;
+  color: white;
 }
 
 main {
